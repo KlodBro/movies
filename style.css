@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./assets/Montserrat/Montserrat-Regular.ttf');
+}
+
+h1, p {
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header>img {
+    width: 200px;
+    height: 100%;
+    padding-left: 30px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.main-image {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-image>img {
+    width: 100%;
+}
+
+.main-image img {
+    height: 715px;
+}
+
+.toner {
+    width: 100%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    color: white;
+}
+
+.toner h1 {
+    font-size: 60px;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.toner h2 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.toner p {
+    margin-left: 50px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.toner button {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 350px;
+    height: 80px;
+    font-size: 18px;
+    background-color: rgb(0, 30, 221);
+    color: white;
+    border-radius: 15px;
+}
+
+.company {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 180px;
+}
+
+.company img {
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    margin-left: 500px;
+}
+
+.text-company {
+    background-color: rgb(254, 205, 152);
+    width: 350px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 200px;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.text-company h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.text-company p {
+    padding: 0px 20px 0px 0px;
+    font-size: 20px;
+}
+
+.text-company button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(00, 102, 153);
+    color: white;
+    border-radius: 5px;
+}
+
+.preim {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.images-preim {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image1 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.image1 img {
+    width: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+.image2 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.image2 img {
+    width: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+.image3 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.image3 img {
+    width: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+.image4 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.image4 img {
+    width: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+.preim-text {
+    width: 100%;
+    height: 100%;
+    padding: 80px 40px 80px 40px;
+    box-sizing: border-box;
+    background-color: rgb(237, 233, 233);
+}
+
+.preim-text h1 {
+    text-align: center;
+}
+
+.preim-text p {
+    text-align: center;
+}
+
+.preim-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pr01 {
+    width: 450px;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+}
+
+.a {
+    border-radius: 100%;
+    border-color: blue;
+    width: 15px;
+    height: 15px;
+    border: 10px solid blue;
+}
+
+.b {
+    width: 4.5px;
+    background-color: blue;
+    flex: 1;
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80px;
+    gap: 10px;
+}
+
+.stap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.stap-text{
+    font-size: 18px;
+}
+
+
+button{
+    width: 200px;
+    height: 150px;
+}
